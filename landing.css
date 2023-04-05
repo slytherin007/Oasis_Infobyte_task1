@@ -1,0 +1,120 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color:transparent;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #3c00ff;
+	text-decoration: none;
+	font-size: larger;
+	font-size: 30px;
+	transition: ease-in-out 0.7s;
+}
+nav li a:hover{
+	color: rgb(255, 255, 255);
+	background-color: #3c00ff;
+	border-radius: 12px;
+}
+
+
+.hero {
+	background-image: url("https://th.bing.com/th/id/OIP.xBQUfqNlc7F7lfEkCMZyxAHaEK?pid=ImgDet&rs=1");
+	background-size: cover;
+	background-position: center;
+	color: #2d49ff;
+	text-align: center;
+	padding: 17em;
+}
+
+.hero h1 {
+	font-size: 48px;
+}
+
+.hero p {
+	font-size: 24px;
+}
+
+.cta-btn {
+	display: inline-block;
+	padding: 20px 40px;
+	background-color: #ff5722;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+
+.about{
+	background-image: url("https://wallpapercave.com/wp/YcjjE9h.jpg");
+	background-size: cover;
+	color: rgb(0, 0, 0);
+	min-height: 40em;
+}
+
+.about h2{
+	font-size: 60px;
+	margin-left: 40px;
+	text-decoration: underline;
+}
+
+.about p{
+	font-size: 30px;
+	margin-left: 40px;
+	margin-right: 1rem;
+}
+.about a{
+	margin-left: 40px;
+	margin-right: 1rem;
+}
+.services{
+	background-image: url("https://www.freepngimg.com/thumb/abstract/93944-geometry-blue-turquoise-abstraction-download-hd-png.png");
+	background-size: cover;
+	color: rgb(0, 0, 0);
+	min-height: 40em;
+}
+
+.services h2{
+	font-size: 60px;
+	text-decoration: underline;
+	margin-left: 40px;
+	margin-right: 1rem;
+	
+}
+.services p{
+	font-size: 25px;
+	margin-left: 40px;
+	margin-right: 1rem;
+}
+.services h3{
+	font-size: 40px;
+	color: #ff5722;
+	margin-left: 40px;
+	margin-right: 1rem;
+	
+}
+.services a{
+	margin-left: 50px;
+	margin-right: 1rem;
+}
+footer{
+	background-color: rgb(78, 152, 249);
+	padding: 1em;;
+}
